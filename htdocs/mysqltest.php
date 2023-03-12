@@ -5,7 +5,7 @@
 </head>
 
 <body>
-    <?php echo "MySql Connection Test<br>"; $db = mysqli_connect("localhost", "root", "");
+    <?php echo "MySql Connection Test<br>"; $db = mysqli_connect("localhost", "root", "test1234");
     if($db){ echo "connect : connected<br>";
     } else{ echo "disconnect : disconnected<br>";
     }
