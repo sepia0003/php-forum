@@ -30,5 +30,21 @@
                     }
                 }
             ?>
+
+            <tbody>
+                <tr>
+                    <td width="70"><?php echo $board['idx']; ?></td>
+                    <td width="500"><a href=""><?php echo $title;?></a></td>
+                    <td width="100"><?php echo $board['name']?></td>
+                    <td width="100"><?php echo $board['date']?></td>
+                    <td width="100"><?php echo $board['recom']; ?></td>
+                    <td width="100"><?php echo $board['views']?></td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="write_btn">
+            <a href="/forum/write.php"><button>write</button></a>
+        </div>
+    </div>
 </body>
 </html>
