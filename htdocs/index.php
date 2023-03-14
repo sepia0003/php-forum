@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Forum</title>
-    <link rel="stylesheet" type="text/css" href="./static/mainstyle.css" />
+    <link rel="stylesheet" type="text/css" href="./static/mainstyle.css">
 </head>
 <body>
     <div id="forum_area">
@@ -47,4 +47,5 @@
         </div>
     </div>
 </body>
+
 </html>
